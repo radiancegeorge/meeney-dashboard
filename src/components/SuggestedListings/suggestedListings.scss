@@ -1,0 +1,79 @@
+.suggested__listings{
+    margin-top: 15px;
+    overflow-y:scroll ;
+    h2{
+        font-size: 20px;
+        font-weight: normal;
+        color: var(--dark-purple-bg);
+    }
+    .listings__container{
+        padding: 23px;
+        background-color: var(--pink-bg);
+        margin-top: 21px;
+        border-radius: 16px;
+        .item__{
+            display: flex;
+            align-items: flex-start;
+            position: relative;
+            margin-bottom: 15px;
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+            .avatar{
+                width: 47px;
+                height: 47px;
+                margin-right: 14px;
+                img{
+                    width: 100%;
+                    border: 3px solid var(--dark-purple-bg);
+                    border-radius: 50%;
+                }
+            }
+            .item__info{
+                .__name{
+                    font-size: 20px;
+                    color: var(--dark-purple-bg);
+                    margin-top: 5px;
+                }
+                .__store{
+                    font-size: 10px;
+                    color: var(--text-grey);
+                }
+            }
+            .orders__left{
+                .__left{
+                    font-size: 10px;
+                    color: var(--text-grey);
+                    margin-top: 5px;
+                    margin-bottom: 9px;
+                }
+                progress{
+                    background-color: var(--bg-orange);
+                    border-radius: 20px;
+                    height: 11px;
+                    min-width: 205px;
+                    /* For Chrome or Safari */
+                    &::-webkit-progress-bar {
+                        background-color: #9B9B9B;
+                        border-radius: 135px;
+                    }
+                    &::-webkit-progress-value {
+                        background-color: var(--bg-orange);
+                        border-radius: 135px;
+                    }
+                }
+            }
+            .order{
+                position: absolute;
+                right: 0;
+                padding: 5px 18px;
+                color: var(--bg-white);
+                background-color: var(--dark-purple-bg);
+                font-size: 15px;
+                border-radius: 13px;
+                border: 1px solid transparent;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,116 @@
+.header {
+  overflow: hidden !important;
+  background: transparent linear-gradient(267deg, var(--light-purple-bg) 0%, var(--dark-purple-bg) 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 0px 0px 35px 35px;
+  position: relative;
+}
+
+.header .styled__circles {
+  width: 609px;
+  height: 609px;
+  position: absolute;
+  top: 0;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(var(--lighter-purple-bg))) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, var(--lighter-purple-bg) 100%) 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+}
+
+.header .styled__circles:nth-of-type(1) {
+  left: -430px;
+  top: -370px;
+}
+
+.header .styled__circles:nth-of-type(2) {
+  top: -450px;
+}
+
+.header nav {
+  padding: 123px 0 68px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header nav .profile__ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header nav .profile__ .pic {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header nav .profile__ .pic img {
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid var(--light-purple-bg);
+}
+
+.header nav .profile__ .more {
+  margin: 0 13px;
+}
+
+.header nav .profile__ .full__name {
+  color: var(--bg-white);
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header nav .other__ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header nav .other__ > div {
+  margin-left: 40px;
+  position: relative;
+}
+
+.header nav .other__ > div .badge {
+  position: absolute;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  color: var(--bg-white);
+  background-color: var(--bg-orange);
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  justify-items: center;
+  top: -10px;
+  right: -10px;
+}
+/*# sourceMappingURL=header.css.map */

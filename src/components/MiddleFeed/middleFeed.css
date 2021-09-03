@@ -1,0 +1,37 @@
+.center {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.center .center__menu {
+  border-bottom: 1px solid var(--rule);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.center .center__menu a {
+  color: var(--text-light-grey);
+  font-size: 20px;
+  font-weight: normal;
+  padding-bottom: 10px;
+  min-width: 172px;
+  text-align: center;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border-bottom: 6px solid transparent;
+}
+
+.center .center__menu a:hover {
+  color: var(--dark-purple-bg);
+  border-bottom: 6px solid var(--dark-purple-bg);
+}
+
+.center .center__menu .active {
+  color: var(--dark-purple-bg);
+  border-bottom: 6px solid var(--dark-purple-bg);
+}
+/*# sourceMappingURL=middleFeed.css.map */

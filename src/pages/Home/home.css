@@ -1,0 +1,36 @@
+.home__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 80px;
+}
+
+.home__body > div {
+  min-height: 100vh;
+}
+
+.home__body .left {
+  -ms-flex-preferred-size: 260px;
+      flex-basis: 260px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.home__body .right {
+  -ms-flex-preferred-size: 329px;
+      flex-basis: 329px;
+}
+
+.home__body .center {
+  -ms-flex-preferred-size: 927px;
+      flex-basis: 927px;
+}
+/*# sourceMappingURL=home.css.map */

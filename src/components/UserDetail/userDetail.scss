@@ -1,0 +1,83 @@
+.user__detail{
+    display: flex;
+    align-items: flex-start;
+    padding: 30px;
+    background-color: var(--pink-bg);
+    border-radius: 19px;
+    margin-top: 34px;
+    & > div{
+        margin-left: 56px;
+        &:first-of-type{
+            margin-left: 0;
+        }
+    }
+    .avatar{
+        min-width: 125px;
+        height: 125px;
+        border: 3px solid var(--dark-purple-bg);
+        background: var(--bg-white);
+        border-radius: 50%;
+        display: grid;
+        align-content: center;
+        margin-top: 10px;
+        img{
+            width: 100%;
+        }
+    }
+    .name__{
+        max-width: 309px;
+        h1{
+            color: var(--dark-purple-bg);
+            font-size: 40px;
+            font-weight: normal;
+        }
+        small{
+            font-size: 20px;
+            color: var(--text-light-grey);
+        }
+        & > div{
+            font-size: 15px;
+            color: var(--text-light-grey);
+            margin-top: 22px;
+            line-height: 22px;
+        }
+    }
+    .extra__data{
+        .top{
+            display: flex;
+            p{
+                font-size: 18px;
+                font-weight: bold;
+                margin-right: 41px;
+                color: var(--dark-purple-bg);
+                small{
+                    font-size: 10px;
+                    margin-top: 3px;
+                    font-weight: normal;
+                    display: block;
+                    color: var(--text-light-grey);
+                    font-family: "work sans";
+                }
+            }
+        }
+        .following{
+            font-size: 10px;
+            border-radius: 15px;
+            color: var(--bg-white);
+            background: var(--dark-purple-bg);
+            width: fit-content;
+            padding: 8px 20px;
+            margin-top: 20px;
+        }
+        .others{
+            margin-top: 28px;
+            a{
+                display: block;
+                font-size: 10px;
+                color: var(--dark-purple-bg);
+                margin-top: 5px;
+                width: fit-content;
+            }
+        }
+    }
+}

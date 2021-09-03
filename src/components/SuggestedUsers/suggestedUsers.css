@@ -1,0 +1,88 @@
+.suggested__users {
+  margin-top: 75px;
+}
+
+.suggested__users .tab {
+  border-bottom: 1px solid var(--text-grey);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.suggested__users .tab p {
+  padding-bottom: 8.5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  color: var(--text-grey);
+}
+
+.suggested__users .tab p.active {
+  border-bottom: 3px solid var(--dark-purple-bg);
+  padding: 8.5px;
+  padding-top: 0;
+  color: var(--dark-purple-bg);
+  font-size: 15px;
+}
+
+.suggested__users .__container {
+  padding: 22.5px;
+  border-radius: 16px;
+  background-color: var(--pink-bg);
+  margin-top: 24.5px;
+}
+
+.suggested__users .__container .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.suggested__users .__container .item:last-of-type {
+  margin-bottom: 0;
+}
+
+.suggested__users .__container .item .detail .name {
+  font-size: 15px;
+  color: var(--dark-purple-bg);
+}
+
+.suggested__users .__container .item .detail .state {
+  color: var(--text-light-grey);
+  font-size: 12px;
+}
+
+.suggested__users .__container .item .avatar {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+}
+
+.suggested__users .__container .item .avatar img {
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid var(--dark-purple-bg);
+}
+
+.suggested__users .__container .item .support {
+  padding: 5px 15px;
+  color: var(--bg-white);
+  background-color: var(--dark-purple-bg);
+  border-radius: 13px;
+  border: 1px solid transparent;
+}
+/*# sourceMappingURL=suggestedUsers.css.map */

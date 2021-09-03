@@ -1,0 +1,97 @@
+.my__pages{
+    border-radius: 13px;
+    background: var(--bg-white);
+    padding-bottom: 33px;
+    &__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        h2{
+            font-size: 15px;
+            font-weight: normal;
+            color: var(--dark-purple-bg);
+        }
+        .new{
+            padding: 6px;
+            border-radius: 12px;
+            background-color: var(--dark-purple-bg);
+            color: var(--bg-white);
+            font-size: 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            span{
+                margin-left: 3.2px;
+            }
+        }
+    }
+    &__search{
+        background-color: var(--darker-grey-bg);
+        border-radius: 16px;
+        width: 85%;
+        margin: auto;
+        border-color: transparent;
+        display: flex;
+        align-items: center;
+        div{
+            margin-left: 9px;
+        }
+        input{
+            background: transparent;
+            font-size: 10px;
+            border: none;
+            width: 100%;
+            color: var(--text-grey);
+            padding: 5px;
+            padding-left: 22px;
+        }
+    }
+    .existing__pages{
+        margin-top: 15px;
+        max-height: 270px;
+        overflow-y: scroll;
+        .page{
+            background-color: var(--main-background);
+            padding: 6px 20px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+            .avatar{
+                width: 45px;
+                height: 45px;
+                border-radius: 1px solid lightgrey;
+                border-radius: 50%;
+                background-color: var(--bg-white);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 11px ;
+                img{
+                    width: 100%;
+                }
+            }
+            .business__name{
+                font-size: 15px;
+                color: var(--dark-purple-bg);
+                small{
+                    display: block;
+                    font-size: 10px;
+                    color: var(--text-light-grey);
+                }
+            }
+            .icons{
+                margin-left: auto;
+                width: fit-content;
+                .pin__icon{
+                    margin-top: 30px;
+                    cursor: pointer;
+                }
+                .menu{
+                    cursor: pointer;
+                }
+            }
+            
+        }
+    }
+}

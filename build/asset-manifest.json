@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cde32441.chunk.css",
+    "main.js": "/static/js/main.9946ddfb.chunk.js",
+    "main.js.map": "/static/js/main.9946ddfb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d5dcdaf9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d5dcdaf9.js.map",
+    "static/js/2.0df6deff.chunk.js": "/static/js/2.0df6deff.chunk.js",
+    "static/js/2.0df6deff.chunk.js.map": "/static/js/2.0df6deff.chunk.js.map",
+    "static/js/3.dc507e1f.chunk.js": "/static/js/3.dc507e1f.chunk.js",
+    "static/js/3.dc507e1f.chunk.js.map": "/static/js/3.dc507e1f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.cde32441.chunk.css.map": "/static/css/main.cde32441.chunk.css.map",
+    "static/js/2.0df6deff.chunk.js.LICENSE.txt": "/static/js/2.0df6deff.chunk.js.LICENSE.txt",
+    "static/media/Ellipse 267.4a9ab553.png": "/static/media/Ellipse 267.4a9ab553.png",
+    "static/media/Ellipse 4_.ecc211b6.png": "/static/media/Ellipse 4_.ecc211b6.png",
+    "static/media/highres_488961989.6edef5ac.png": "/static/media/highres_488961989.6edef5ac.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5dcdaf9.js",
+    "static/js/2.0df6deff.chunk.js",
+    "static/css/main.cde32441.chunk.css",
+    "static/js/main.9946ddfb.chunk.js"
+  ]
+}

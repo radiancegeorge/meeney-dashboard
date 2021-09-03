@@ -1,0 +1,139 @@
+.my__pages {
+  border-radius: 13px;
+  background: var(--bg-white);
+  padding-bottom: 33px;
+}
+
+.my__pages__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+
+.my__pages__header h2 {
+  font-size: 15px;
+  font-weight: normal;
+  color: var(--dark-purple-bg);
+}
+
+.my__pages__header .new {
+  padding: 6px;
+  border-radius: 12px;
+  background-color: var(--dark-purple-bg);
+  color: var(--bg-white);
+  font-size: 10px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.my__pages__header .new span {
+  margin-left: 3.2px;
+}
+
+.my__pages__search {
+  background-color: var(--darker-grey-bg);
+  border-radius: 16px;
+  width: 85%;
+  margin: auto;
+  border-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.my__pages__search div {
+  margin-left: 9px;
+}
+
+.my__pages__search input {
+  background: transparent;
+  font-size: 10px;
+  border: none;
+  width: 100%;
+  color: var(--text-grey);
+  padding: 5px;
+  padding-left: 22px;
+}
+
+.my__pages .existing__pages {
+  margin-top: 15px;
+  max-height: 270px;
+  overflow-y: scroll;
+}
+
+.my__pages .existing__pages .page {
+  background-color: var(--main-background);
+  padding: 6px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 6px;
+}
+
+.my__pages .existing__pages .page .avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 1px solid lightgrey;
+  border-radius: 50%;
+  background-color: var(--bg-white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 11px;
+}
+
+.my__pages .existing__pages .page .avatar img {
+  width: 100%;
+}
+
+.my__pages .existing__pages .page .business__name {
+  font-size: 15px;
+  color: var(--dark-purple-bg);
+}
+
+.my__pages .existing__pages .page .business__name small {
+  display: block;
+  font-size: 10px;
+  color: var(--text-light-grey);
+}
+
+.my__pages .existing__pages .page .icons {
+  margin-left: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.my__pages .existing__pages .page .icons .pin__icon {
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.my__pages .existing__pages .page .icons .menu {
+  cursor: pointer;
+}
+/*# sourceMappingURL=myPages.css.map */

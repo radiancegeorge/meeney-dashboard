@@ -1,0 +1,108 @@
+.user__detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 30px;
+  background-color: var(--pink-bg);
+  border-radius: 19px;
+  margin-top: 34px;
+}
+
+.user__detail > div {
+  margin-left: 56px;
+}
+
+.user__detail > div:first-of-type {
+  margin-left: 0;
+}
+
+.user__detail .avatar {
+  min-width: 125px;
+  height: 125px;
+  border: 3px solid var(--dark-purple-bg);
+  background: var(--bg-white);
+  border-radius: 50%;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 10px;
+}
+
+.user__detail .avatar img {
+  width: 100%;
+}
+
+.user__detail .name__ {
+  max-width: 309px;
+}
+
+.user__detail .name__ h1 {
+  color: var(--dark-purple-bg);
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.user__detail .name__ small {
+  font-size: 20px;
+  color: var(--text-light-grey);
+}
+
+.user__detail .name__ > div {
+  font-size: 15px;
+  color: var(--text-light-grey);
+  margin-top: 22px;
+  line-height: 22px;
+}
+
+.user__detail .extra__data .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user__detail .extra__data .top p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 41px;
+  color: var(--dark-purple-bg);
+}
+
+.user__detail .extra__data .top p small {
+  font-size: 10px;
+  margin-top: 3px;
+  font-weight: normal;
+  display: block;
+  color: var(--text-light-grey);
+  font-family: "work sans";
+}
+
+.user__detail .extra__data .following {
+  font-size: 10px;
+  border-radius: 15px;
+  color: var(--bg-white);
+  background: var(--dark-purple-bg);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px 20px;
+  margin-top: 20px;
+}
+
+.user__detail .extra__data .others {
+  margin-top: 28px;
+}
+
+.user__detail .extra__data .others a {
+  display: block;
+  font-size: 10px;
+  color: var(--dark-purple-bg);
+  margin-top: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+/*# sourceMappingURL=userDetail.css.map */

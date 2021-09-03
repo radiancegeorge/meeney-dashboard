@@ -1,0 +1,55 @@
+.switch__accounts{
+    padding: 13px;
+    border-radius: 10px;
+    background: var(--bg-white);
+    margin-bottom: 20px;
+    h2{
+        font-size: 20px;
+        margin-bottom: 19px;
+        font-weight: normal;
+        color: var(--dark-purple-bg);
+        text-align: center;
+    }
+    .types{
+        display: flex;
+        width: 100%;
+        div{
+            flex-basis: 50%;
+            font-size: 15px;
+            position: relative;
+            padding: 10px;
+            color: var(--bg-white);
+            border-radius: 0px 7px 7px 0px;
+            text-align: center;
+            small{
+                font-size: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 27px;
+                height: 27px;
+                background-color: var(--bg-orange);
+                color: var(--bg-white);
+                border: 1px solid transparent;
+                border-radius: 50%;
+                position: absolute;
+            }
+            &:nth-of-type(1){
+                background-color: var(--dark-purple-bg);
+                border-radius: 7px 0px 0px 7px;
+                small{
+                    left: -10px;
+                    top: -10px;
+                }
+            }
+            &:nth-of-type(2){
+                background-color: var(--grey-bg);
+                border-radius: 0px 7px 7px 0px;
+                small{
+                    right: -10px;
+                    top: -10px;
+                }
+            }
+        }
+    }
+}

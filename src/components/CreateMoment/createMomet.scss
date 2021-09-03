@@ -1,0 +1,46 @@
+.create__moment{
+    margin-top: 34px;
+    padding: 34px;
+    background-color: var(--bg-white);
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    .new__moment{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        input{
+            min-width: 697px;
+            padding: 14px 32px;
+            border: 1px solid var(--border);
+            border-radius: 29px;
+            font-size: 20px;
+            color: var(--dark-purple-bg);
+            &::placeholder{
+                color: var(--dark-purple-bg);
+            }
+        }
+        button{
+            padding: 11px 40px;
+            font-size: 20px;
+            background-color: var(--dark-purple-bg);
+            color: var(--bg-white);
+            border-radius: 26px;
+            border: 1px solid transparent;
+        }
+
+    }
+    .select__to__upload{
+        display: flex;
+        margin-top: 43.9px;
+        & > div{
+            display: flex;
+            margin-right: 37px;
+            align-items: center;
+            font-size: 15px;
+            color: rgb(57, 57, 57);
+            .icon{
+                margin-right: 7px;
+            }
+        }
+    }
+}

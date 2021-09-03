@@ -1,0 +1,77 @@
+.create__moment {
+  margin-top: 34px;
+  padding: 34px;
+  background-color: var(--bg-white);
+  border-radius: 16px;
+  border: 1px solid var(--border);
+}
+
+.create__moment .new__moment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.create__moment .new__moment input {
+  min-width: 697px;
+  padding: 14px 32px;
+  border: 1px solid var(--border);
+  border-radius: 29px;
+  font-size: 20px;
+  color: var(--dark-purple-bg);
+}
+
+.create__moment .new__moment input::-webkit-input-placeholder {
+  color: var(--dark-purple-bg);
+}
+
+.create__moment .new__moment input:-ms-input-placeholder {
+  color: var(--dark-purple-bg);
+}
+
+.create__moment .new__moment input::-ms-input-placeholder {
+  color: var(--dark-purple-bg);
+}
+
+.create__moment .new__moment input::placeholder {
+  color: var(--dark-purple-bg);
+}
+
+.create__moment .new__moment button {
+  padding: 11px 40px;
+  font-size: 20px;
+  background-color: var(--dark-purple-bg);
+  color: var(--bg-white);
+  border-radius: 26px;
+  border: 1px solid transparent;
+}
+
+.create__moment .select__to__upload {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 43.9px;
+}
+
+.create__moment .select__to__upload > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 37px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  color: #393939;
+}
+
+.create__moment .select__to__upload > div .icon {
+  margin-right: 7px;
+}
+/*# sourceMappingURL=createMomet.css.map */
