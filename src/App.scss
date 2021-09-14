@@ -62,6 +62,7 @@ html {
 .App {
   max-width: 1848px;
   background-color: var(--main-background);
+  margin: auto;
 }
 .search {
   width: 398px;
@@ -92,22 +93,6 @@ html {
   margin: auto;
 }
 
-@media (min-width: 1320px) and (max-width: 1440px) {
-  html {
-    zoom: 80%;
-  }
-  .default__container {
-    max-width: 110vw;
-  }
-  .home {
-    &__body {
-      & > div {
-        height: 120vh !important;
-      }
-    }
-  }
-}
-
 .existing__pages {
   &::-webkit-scrollbar {
     display: block;
@@ -123,5 +108,47 @@ html {
   }
   &::-webkit-scrollbar-track {
     background-color: transparent;
+  }
+}
+
+@media (min-width: 1320px) and (max-width: 1440px) {
+  html {
+    zoom: 80%;
+  }
+  .default__container {
+    max-width: 110vw;
+  }
+  .home {
+    &__body {
+      & > div {
+        height: 120vh !important;
+      }
+    }
+  }
+}
+@media (min-width: 1500px) and (max-width: 1600px) {
+  .default__container {
+    max-width: 90vw;
+  }
+  .home {
+    &__body {
+      & > div {
+        height: 120vh !important;
+        zoom: 85%;
+      }
+    }
+  }
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .default__container {
+    max-width: 98vw;
+  }
+  .home {
+    &__body {
+      & > div {
+        height: 120vh !important;
+        zoom: 75%;
+      }
+    }
   }
 }
