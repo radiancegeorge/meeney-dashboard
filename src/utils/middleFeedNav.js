@@ -9,7 +9,7 @@ const middleFeedNav = [
   },
   {
     name: "My Page",
-    link: "/page",
+    link: "/my_page",
   },
 ];
 

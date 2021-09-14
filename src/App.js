@@ -9,7 +9,7 @@ function App() {
       <Router>
         <div className="container">
           <Switch>
-            <ProtectedRoute exact path="/page" component={Home} />
+            <ProtectedRoute exact path="/my_page" component={Home} />
             <ProtectedRoute exact path="/" component={Trending} />
           </Switch>
         </div>

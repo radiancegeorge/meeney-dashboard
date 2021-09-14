@@ -1,4 +1,5 @@
 import { NavLink, useHistory } from "react-router-dom";
+import { Fragment } from "react/cjs/react.production.min";
 import middleFeedNav from "../../utils/middleFeedNav";
 import CreateMomet from "../CreateMoment";
 import UserDetail from "../UserDetail";
@@ -20,14 +21,18 @@ const MiddleFeed = ({ children }) => {
             key={idx}
             to={nav.link}
             className={addActiveToLink(nav.link)}>
-            {console.log(nav.link, pathname)}
             {nav.name}
           </NavLink>
         ))}
       </div>
       {/* user detail card */}
-      <UserDetail />
-      <CreateMomet />
+      {pathname === "/my_paage" && (
+        <Fragment>
+          <UserDetail />
+          <CreateMomet />
+        </Fragment>
+      )}
+
       {children}
     </div>
   );
